@@ -1,12 +1,17 @@
-Yii 2 Basic Project Template
+OpUtils
 ============================
 
-Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-rapidly creating small projects.
+OpUtils is a Switch Port & IP Address Management software that helps network engineers manage their Switches and IP Address Space with ease. With its comprehensive set of 30+ tools, it helps them to perform network monitoring tasks like detecting a rogue device intrusion, keep a check on bandwidth usage, monitoring availability of critical devices, backing up Cisco configuration files and more.
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
+* **IP Address Management**: Scan IPv4 & IPv6 subnets in the network to identify the available and used IP Addresses.
+ 
+* **Switch Port Management**: Scan all the switches in your network and map the switch ports to devices down to its physical location.
+ 
+* **Detect Rogue Devices**: Identify the rogue device intrusions and block their access.
+ 
+* **Network Tools**: Monitor the critical servers in the network for availability and alert for immediate attention.
+ 
+* **MAC IP List**: Builds the MAC-IP combination of devices in the network through various resources, which is useful for troubleshooting.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-basic/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
