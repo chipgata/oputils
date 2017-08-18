@@ -1,0 +1,26 @@
+# database
+mysql:
+  image: mysql:5.6
+  container_name: mysql
+  ports:
+    - "3306:3306"
+  volumes:
+    - .tmp/mysql:/var/lib/mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=121212
+    - MYSQL_DATABASE=oputils
+    - MYSQL_USER=oputils
+    - MYSQL_PASSWORD=oputils
+
+phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+     - PMA_ARBITRARY=1
+    restart: always
+    ports:
+     - 8080:80
+    volumes:
+     - /sessions
+    links:
+     - mysql:mysql
